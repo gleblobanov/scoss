@@ -1,0 +1,55 @@
+/* Скрипт записи студентов на курс Отправляет информацию кто куда записан
+ доп моменты
+ 1. У курса должно быть доп поле id_course_onlineedu с идентификатором курса на сцосе. Так определяется по каким курсам отправлять народ
+ 2. В таблице линк надо точно знать номер oauth (issuerid=2)
+ 3. Есть таблица transfer_onlineedu по которой определяется кто уже был отправлен. 
+ Пояснения по п.3 
+ Запрос выводит данные
+ php начинает их отправлять по-порядку (хотя можно и кучей)
+ После каждой успешной отправки в таблицу transfer_onlineedu записывается информация
+ Таблица эта используется для всех целей логирования. И для записи студентов и для отправлки результатов и может быть для чего-то еще
+ Какого именно типа было действие прописывается в поле act для записи пользователя 'enrol'
+ т.к. при первой записи пльзователя в логах вообще никаой информации быть не должно, то в запросе используется left join
+ 
+*/
+
+SELECT mu.id, maoll.username, mc.id mcid, mue.timecreated, mcd.value id_course_onlineedu
+FROM mdl_user mu
+JOIN mdl_auth_oauth2_linked_login maoll ON maoll.userid=mu.id AND maoll.issuerid=2  -- только те кто зашел с онлайнеду
+LEFT JOIN transfer_onlineedu tole ON tole.userid=mu.id -- те кто еще не был отправлен в систему ранее
+JOIN mdl_user_enrolments mue ON mue.userid=mu.id -- далее определение курса и только студенты
+join mdl_enrol me ON me.id=mue.enrolid
+JOIN mdl_course mc ON mc.id=me.courseid
+JOIN mdl_context mc1 ON mc1.instanceid=mc.id AND mc1.contextlevel=50
+JOIN mdl_role_assignments mra ON mra.contextid=mc1.id AND mra.roleid=5 AND mra.userid=mu.id
+JOIN mdl_customfield_data mcd ON mcd.instanceid=mc.id -- только курсы зарегиные на онлайнеду
+JOIN mdl_customfield_field mcf ON mcf.id=mcd.fieldid  AND mcf.shortname='id_course_onlineedu' -- идентификатор курса в кастомных полях
+WHERE tole.id IS NULL
+;
+
+-- Таблица логов
+
+CREATE TABLE `moodle_oiledu.ru`.transfer_onlineedu (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  userid int(11) NOT NULL,
+  act varchar(255) NOT NULL DEFAULT '' COMMENT 'Тип записи: enrol progress',
+  date_transfer datetime DEFAULT NULL COMMENT 'время логирования',
+  courseid int(11) NOT NULL,
+  course_scos_id varchar(255) NOT NULL DEFAULT '',
+  sessionId varchar(255) NOT NULL DEFAULT '',
+  rating varchar(10) DEFAULT NULL,
+  progress varchar(10) DEFAULT NULL,
+  progress_time bigint(20) DEFAULT NULL,
+  progress_idgrade int(11) DEFAULT NULL,
+  checkpointName varchar(255) DEFAULT NULL,
+  description datetime DEFAULT NULL,
+  PRIMARY KEY (id)
+)
+ENGINE = INNODB,
+CHARACTER SET utf8,
+COLLATE utf8_unicode_ci;
+
+ALTER TABLE `moodle_oiledu.ru`.transfer_onlineedu
+ADD INDEX IDX_transfer_onlineedu_userid (userid);
+
+

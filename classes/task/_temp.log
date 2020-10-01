@@ -1,0 +1,5074 @@
+* About to connect() to test.online.edu.ru port 443 (#0)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:00 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0kp5fwyrtjblyo1h4feet27q311804.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #0 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#1)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#1)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:00 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01ppvpql0zjhja1sckjxy21oi4911806.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #1 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#2)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#2)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:00 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01a06j30vgswz91rtdi6ivudq5611808.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #2 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#3)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#3)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:01 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01cvz1u804pf8a1a5q2hedqlnuh11809.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #3 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#4)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#4)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:01 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node011fmj5wpdzr56iat9nobapu4p11811.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #4 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#5)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#5)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:01 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01b7am9cuidy1fzibias3b3cwg11812.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #5 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#6)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#6)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:01 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node015l1gfea6nsxg1g6r6vzitk86i11814.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #6 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#7)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#7)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:01 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0izn6yk1lxqyz9h06uxbwiup711816.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #7 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#8)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#8)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:01 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0mmeckbmaiu951ih7ey88ncksz11817.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #8 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#9)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#9)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:02 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node024wtmd88tcqp11ch72815er3v11819.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #9 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#10)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#10)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:02 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0d28vvvsz9hvy1htvlgial7idt11821.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #10 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#11)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#11)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:02 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0tl0gpt49jqp07369xpnnn3z911823.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #11 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#12)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#12)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:02 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0loprpx03ms7n1wdoiqf9f6unx11824.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #12 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#13)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#13)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:02 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0iv8w1gu817ys15kux2f0o2j9o11826.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #13 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#14)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#14)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:02 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01slvyom5fkg0p1q6eaf1dveanc11827.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #14 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#15)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#15)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:03 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01iwj5nhiylnquqrt434fk1yi211829.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #15 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#16)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#16)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 153
+
+* upload completely sent off: 153 out of 153 bytes
+< HTTP/1.1 400 Bad Request
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:21:03 GMT
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01twxi4ac7isafwnnumz79ow6c11830.node0; Path=/; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Cache-Control: must-revalidate,no-cache,no-store
+< X-Frame-Options: DENY
+< 
+* Connection #16 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#0)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:05 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0kx4lhy1kattummfl6n5h8z5d11841.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #0 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#1)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#1)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:06 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0wwl9ignfqohh4tgxm1lqi9ka11842.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #1 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#2)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#2)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:06 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01td3ke8dqi182st9c5d0gm16z11843.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #2 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#3)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#3)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:06 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0ja24sebokyw8crtxlozu9f711844.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #3 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#4)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#4)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:06 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01v6f5uewzhh491ki69pof7ck5411845.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #4 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#5)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#5)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:07 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0bv6cajc0jg9ucckrorp8o3d311846.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #5 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#6)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#6)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:07 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0ft7pc8wd46aavkjq7nq4nv2011847.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #6 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#7)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#7)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:07 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0oxllo05urq9i17900yt4gjwlc11848.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #7 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#8)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#8)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:08 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0xs3v3pqupkc219zhem2alt9kj11849.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #8 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#9)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#9)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:08 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01md7d1rpem79q10cn5gewaezz11850.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #9 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#10)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#10)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:08 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node04sad1hbxrz3j10i4ke4scoeia11851.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #10 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#11)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#11)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:09 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01chodhxizym7tazset4nu2zip11852.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #11 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#12)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#12)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:09 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01tu6s0zzd6oy51bp8byra8l3r011853.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #12 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#13)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#13)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:09 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0guiuvd46ksxe31o98yutcdwu11854.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #13 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#14)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#14)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:09 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0b8z5slhxr7ag1acwlhgg2gdoi11855.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #14 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#15)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#15)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:10 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node018fw7jsbdutz62wnndruuabgi11856.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #15 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#16)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#16)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:25:10 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node024ahp5qaughumiyub83n6bsl11857.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #16 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#0)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:11 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01mxaz0c3p31ja1ow4glp641loe11871.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #0 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#1)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#1)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:11 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01jy24am4ws5yy2uqap565gv6k11872.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #1 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#2)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#2)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:11 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0ynga593vo14rz3hfshdvnam011873.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #2 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#3)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#3)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:12 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01lk6etofml47v1nazprpf2mb5611874.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #3 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#4)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#4)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:12 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01r8v39lsuf1gnz36zn9zosfbx11875.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #4 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#5)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#5)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:12 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01tbfstpun46uj1v5uc8ycinwmw11876.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #5 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#6)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#6)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:12 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node011lv3c8jpg9vl1rmk8ujej664311877.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #6 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#7)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#7)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:13 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node06dw87d02hevq1tus0zi1wruhh11878.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #7 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#8)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#8)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:13 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0vb27so7jlawv16i6dw0pu83ep11879.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #8 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#9)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#9)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:13 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0ylnnejehxqc98tddv9soy9dm11880.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #9 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#10)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#10)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:13 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0o6psihqy4gzprsie61cgxmr711881.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #10 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#11)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#11)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:14 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node04jkiwwb481rc1af529teuty1s11882.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #11 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#12)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#12)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:14 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01ar4zvq8va41o1dp82v6as0d8w11883.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #12 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#13)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#13)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:14 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node06pzam78idhci1cu6eflj12aug11884.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #13 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#14)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#14)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:14 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0jpvdhij7swvv1wgkf7bqmz2by11885.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #14 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#15)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#15)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:15 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0q45dnnhkplw5t3wlczcvwiw711886.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #15 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#16)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#16)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:15 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01i57w8orc8cd714ri46xe6dx4p11887.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #16 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#0)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:33 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01ndfkip0a9t6u155g1u8xaeecg11888.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #0 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#1)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#1)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:34 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01d9b79slhbi6zd6h8k72okynv11889.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #1 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#2)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#2)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:34 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0186eehbzymd7v14q2b4h329vx511890.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #2 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#3)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#3)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:34 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01x8roqjhz4l7d7bp3g3ht5rv11891.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #3 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#4)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#4)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:34 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01lm6itilbau7efj1zps3vak811892.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #4 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#5)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#5)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:35 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node018nkzz5dm37wt10yy89kc3y2d411893.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #5 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#6)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#6)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:35 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0keifoohg99ke1c8jl87lg0xcv11894.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #6 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#7)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#7)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:35 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node019fu78z7266axje4riop5shfs11895.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #7 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#8)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#8)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:35 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01grgddk5mxriwhn5nimmd7xng11896.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #8 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#9)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#9)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:36 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node018rreaq5dx33w1wdqgk7jf9gf311897.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #9 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#10)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#10)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:36 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01lrk61ugg548lbl89ftu8q0pn11898.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #10 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#11)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#11)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:36 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0owm92fl4nnsb1hnv3rrlnl0r211899.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #11 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#12)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#12)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:36 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node03kl9ap7ofqdv8hoeabfh466211900.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #12 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#13)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#13)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:37 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node019axsstk05aqkbbf10pkthob611901.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #13 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#14)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#14)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:37 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0dmvew6flfomg1mv8p7aie5q2t11902.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #14 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#15)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#15)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:37 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0cxe2jm4izqyw16800jx01v7r211903.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #15 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#16)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#16)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:26:37 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0y4kzf7q7roqc1i5qrneb6nw9511904.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #16 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#0)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:16 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01m275bsbj5h80zd82j368wmjy11905.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #0 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#1)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#1)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:16 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01s2wsma7m7hovyg458os6tgoz11906.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #1 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#2)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#2)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:17 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01jy5gtoomeia8qkbw0h5q7l2g11907.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #2 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#3)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#3)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:17 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0ta2vryc489q61t06imik8bojy11908.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #3 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#4)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#4)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:17 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01vfp3c5b9og03153he40injs3f11909.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #4 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#5)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#5)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:17 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0jxsedg3tcgeo1n9v65f9okikx11910.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #5 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#6)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#6)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:18 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01vgjwx1o183u9v89s1jd3jwlm11911.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #6 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#7)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#7)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:18 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01ctsal6chsy4mb0lactryywvb11912.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #7 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#8)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#8)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:18 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node064v1fjo5d3vvrnas3kokbjau11913.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #8 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#9)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#9)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:18 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01atv8g9yaeummqyrladl5tfme11914.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #9 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#10)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#10)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:19 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0113yxmd2x7vil72j5u6h4g3d411915.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #10 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#11)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#11)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:19 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node07ajecr3mh65kc5b3hkgacnwy11916.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #11 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#12)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#12)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:19 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0wsm47ywtb3mgycjyd9fl00pi11917.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #12 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#13)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#13)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:19 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node014gi843ezt37wjw1n6pv31lht11918.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #13 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#14)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#14)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:20 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01f7myftykw9k31r9m02v0te9w411919.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #14 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#15)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#15)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:20 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01o87pjjjawygm1mkw4asvwzenc11920.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #15 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#16)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#16)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:27:20 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01e9fsnl554530vc4jymbba0fc11921.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #16 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#0)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:07 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0vm5f599rzm6x2lnoktccvrxl11940.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #0 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#1)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#1)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:07 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0rfv0f7dowa4ousno3uzik9i211941.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #1 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#2)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#2)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:07 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node013b7k8k6pi9i314qlzm4xzcitp11942.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #2 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#3)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#3)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:08 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01umt9y4q2rz7xsk60ucr6kfgu11943.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #3 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#4)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#4)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:08 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0w5hz98k4rthh105z2y83wbkm011944.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #4 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#5)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#5)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:08 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01c7qc0p2cgfzv1lmicprwkb29o11945.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #5 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#6)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#6)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:09 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0172x9jk4j7skav5v3rjmjvy6n11946.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #6 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#7)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#7)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:09 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node016q0ct5cl7a70anto7dutnp0l11947.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #7 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#8)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#8)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:09 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01jo34n6iilq7x1dit379idi19m11948.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #8 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#9)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#9)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:09 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node02gnnfshmxf2e7cl0fcsd4xmy11949.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #9 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#10)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#10)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:10 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node05rgbzvv857ht15a8llh56keem11950.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #10 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#11)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#11)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:10 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01hp8r5m5ecq7j1ty7wsm61o9rs11951.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #11 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#12)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#12)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:10 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0i4dvx8ipp3j3bau6saphvra311952.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #12 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#13)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#13)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:10 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01kaonrovxmdyo8kysg5tp8m9011953.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #13 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#14)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#14)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:11 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01pj74849r8v371eebuz34zbpga11954.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #14 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#15)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#15)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:11 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0145i4dl8u8lytp94pg0qbb8vg11955.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #15 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#16)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#16)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:31:11 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0rimh8brcerid3jhrg4r61bw011956.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #16 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#0)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:45 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0pxkyi7xmdnth13xmjdvlr8zlq11959.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #0 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#1)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#1)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:46 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0lygefqpzzc9vhido96rbdv3711960.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #1 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#2)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#2)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:46 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0ahezb8zo9n1vpc4ximj9mblk11961.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #2 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#3)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#3)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:46 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0118nezrvcn4hmv09w9c5a1zue11962.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #3 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#4)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#4)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:47 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01r05pwns3uvpthsggked0wmtw11963.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #4 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#5)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#5)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:47 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node04rdo2nqqvr8kjj7vs1xlxwej11964.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #5 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#6)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#6)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:47 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01rcj0m9r1zh762fqfsgc9j1v11965.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #6 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#7)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#7)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:48 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node018gop22jh75ok11amf3lvc9ydl11966.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #7 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#8)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#8)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:48 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0u2nkrcl2ju361evb69uoann1c11967.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #8 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#9)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#9)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:48 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0sm4t72nqpoz71h5yjmvola1j511968.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #9 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#10)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#10)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:49 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0iiyjsu1inwv314g0vcdbdikqg11969.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #10 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#11)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#11)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:49 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0cat2n04aohapifsytspuoms211970.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #11 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#12)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#12)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:49 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0vn8e5pq6kwci10agfrus2tloe11971.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #12 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#13)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#13)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:49 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0b48q9jmicxc81mivz5esh6n11972.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #13 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#14)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#14)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:50 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0f7toudrp2nytkh5hkxqym9q511973.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #14 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#15)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#15)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:50 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01pom3dviqh6kdozgkb0mqc4dd11974.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #15 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#16)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#16)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 136
+
+* upload completely sent off: 136 out of 136 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:32:50 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01mt2eat0wr03iyt53bn56wpek11975.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #16 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#0)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:42 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0h0s1002kbyzpvv1wkszfgb1w11976.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #0 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#1)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#1)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:43 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0m8uwuk7j7t3l1cxg0g9iucouy11977.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #1 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#2)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#2)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:43 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node012vk6tbbdtdn41jr4quwlki62011978.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #2 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#3)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#3)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:43 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node04oudtflzpj4c1mjjzixcbyntj11979.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #3 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#4)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#4)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:44 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0liv3tr9vmy9r2fyzesc5kj1611980.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #4 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#5)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#5)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:44 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0154zfhhim4alm14c64yzxn6d2b11981.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #5 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#6)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#6)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:44 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01f0th5i5htv7u1r4j93v91pgsh11982.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #6 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#7)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#7)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:45 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0lw50c3wj0i621mhaf0jr9zngc11983.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #7 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#8)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#8)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:45 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01w22u8c9m1sw8ywiwptb3wjri11984.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #8 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#9)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#9)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:45 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node03ggm5t3jfctw17f87go5mv3rw11985.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #9 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#10)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#10)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:45 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01x8vg1rm2pca11q3pxos9z05hj11986.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #10 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#11)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#11)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:46 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node016u5qd40vo5hqtcsjegwxkais11987.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #11 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#12)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#12)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:46 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0oiujqmendjq11ncuyg1epg7iv11988.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #12 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#13)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#13)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:46 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0wbuzfjh3e6po3tzhns88nury11989.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #13 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#14)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#14)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:46 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node016kvot5b9yfiqvt3dez4863n711990.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #14 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#15)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#15)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:47 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node0ups5lmm3ln8h1wf9hl9jypetj11991.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #15 to host test.online.edu.ru left intact
+* About to connect() to test.online.edu.ru port 443 (#16)
+*   Trying 91.132.228.15...
+* Connected to test.online.edu.ru (91.132.228.15) port 443 (#16)
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* NSS: client certificate from file
+* 	subject: CN=1020203079016 1
+* 	start date: авг 26 10:40:17 2020 GMT
+* 	expire date: дек 31 00:00:00 2025 GMT
+* 	common name: 1020203079016 1
+* 	issuer: C=RU,CN=online.edu.ru
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+* Server certificate:
+* 	subject: CN=online.edu.ru
+* 	start date: июл 29 18:33:36 2020 GMT
+* 	expire date: окт 27 18:33:36 2020 GMT
+* 	common name: online.edu.ru
+* 	issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US
+> POST /api/v1/course/enroll HTTP/1.1
+Host: test.online.edu.ru
+Accept: */*
+Content-Type: application/json
+Content-Length: 158
+
+* upload completely sent off: 158 out of 158 bytes
+< HTTP/1.1 201 Created
+< Server: nginx/1.14.2
+< Date: Mon, 21 Sep 2020 13:33:47 GMT
+< Transfer-Encoding: chunked
+< X-Frame-Options: DENY
+< Set-Cookie: JSESSIONID=node01xcw6m3d3jxxaeqlqaaq7xyna11992.node0; Path=/; Secure; SameSite=None
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< 
+* Connection #16 to host test.online.edu.ru left intact

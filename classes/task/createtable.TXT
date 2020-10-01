@@ -1,0 +1,41 @@
+-- 
+-- Установка кодировки, с использованием которой клиент будет посылать запросы на сервер
+--
+SET NAMES 'utf8';
+
+--
+-- Установка базы данных по умолчанию
+--
+USE `moodle_oiledu.ru`;
+
+--
+-- Создать таблицу `transfer_onlineedu`
+--
+CREATE TABLE transfer_onlineedu (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  userid int(11) NOT NULL,
+  user_scos varchar(50) NOT NULL DEFAULT '',
+  act varchar(20) NOT NULL DEFAULT '' COMMENT 'Тип записи: enrol progress',
+  date_transfer datetime NOT NULL COMMENT 'время логирования',
+  courseid int(11) NOT NULL,
+  course_scos_id varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '',
+  sessionId varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '',
+  progress varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
+  rating varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
+  rating_time bigint(20) DEFAULT NULL,
+  rating_id_instance int(11) DEFAULT NULL,
+  checkpointName varchar(255) DEFAULT NULL,
+  description varchar(255) DEFAULT NULL,
+  PRIMARY KEY (id)
+)
+ENGINE = INNODB,
+AUTO_INCREMENT = 239,
+AVG_ROW_LENGTH = 399,
+CHARACTER SET utf8,
+COLLATE utf8_unicode_ci;
+
+--
+-- Создать индекс `UK_transfer_onlineedu` для объекта типа таблица `transfer_onlineedu`
+--
+ALTER TABLE transfer_onlineedu
+ADD UNIQUE INDEX UK_transfer_onlineedu (userid, courseid, sessionId, act, rating_id_instance, rating_time);

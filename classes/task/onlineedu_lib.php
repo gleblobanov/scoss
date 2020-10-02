@@ -47,6 +47,7 @@
 	
 	function errormail($mailtext='Ошибка')
 	{
+		GLOBAL $DB;
 		$userObj = $DB->get_record("user", ['id' => MAILUSERERRORONLINEEDU]); // ID администратора
 		
 		email_to_user($userObj, $userObj, 'Важно! от Vodin online.edu.ru', $mailtext, $mailtext, ", ", true);
